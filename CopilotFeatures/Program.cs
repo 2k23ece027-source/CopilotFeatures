@@ -1,6 +1,6 @@
-﻿Console.WriteLine("I'm Roashan "); 
-
-
+﻿Console.WriteLine("Welcome to KIOT Sample Github Project")
+Console.WriteLine("Welcome buddy!");
+Console.WriteLine("Dinesh Updated the code");
 int[] numbers = [12, 7, 25, 18, 9];
 
 int[] ranked = numbers.Distinct().OrderDescending().ToArray();
@@ -8,4 +8,4 @@ int[] ranked = numbers.Distinct().OrderDescending().ToArray();
 if (ranked.Length >= 2)
     Console.WriteLine($"Second largest: {ranked[1]}");
 else
-    Console.WriteLine("Don't have enough unique numbers.");
+    Console.WriteLine("There is no second-largest distinct number.");
